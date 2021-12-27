@@ -26,19 +26,19 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭───══✪ %me 
-│✾ Version: %version
-│✾ Library: Baileys-MD
-│✾ Runtime: %uptime
-│✾ Infomasi: %me Dalam Pengembangan 🔊
+│➥ Version: %version
+│➥ Library: Baileys-MD
+│➥ Runtime: %uptime
+│➥ Infomasi: %me Dalam Pengembangan 🔊
 ╰❑
 ╭─❑ 「 *INFO USER* 」 ❑──
-│ ✾ Name: %name 😗
-│ ✾ Status: Teruslah Berbuat Baik Walaupun Tak Berguna 😉
-│ ✾ Limit: %limit 📝
-│ ✾ Money: %money 💰
-│ ✾ Exp: %totalexp ⭐
-│ ✾ Level: %level 💝
-│ ✾ Role: %role
+│ ➥ Name: %name 😗
+│ ➥ Status: Teruslah Berbuat Baik Walaupun Tak Berguna 😉
+│ ➥ Limit: %limit 📝
+│ ➥ Money: %money 💰
+│ ➥ Exp: %totalexp ⭐
+│ ➥ Level: %level 💝
+│ ➥ Role: %role
 ╰❑
 ╭─❑ 「 CAPTION 😏 」 ❑──
 │ Begitu sulitnya mencari teman yang tak lupa kita
