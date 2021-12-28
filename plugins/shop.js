@@ -28,24 +28,24 @@ ${usedPrefix}shop <Buy|sell> <item> <jumlah>\n
 Contoh penggunaan: *${usedPrefix}shop buy potion 1*\n\n
 List Barang:\n\n
 *Barang   |  Harga beli*\n
-Potion:       ${potion}
-Diamond:     ${Bdiamond}
-Common:     ${Bcommon}
-Uncommon:  ${Buncommon}
-Mythic:     ${Bmythic}
-Legendary: ${Blegendary}
-Sampah:     ${Bsampah}
-Armor:       ${armor}
-Sword:       ${sword}\n\n
+Potion ⏩:       ${potion}
+Diamond⏩:     ${Bdiamond}
+Common⏩:     ${Bcommon}
+Uncommon⏩:  ${Buncommon}
+Mythic⏩:     ${Bmythic}
+Legendary⏩: ${Blegendary}
+Sampah🗿:     ${Bsampah}
+Armor⏩:       ${armor}
+Sword⏩:       ${sword}\n\n
 *Barang   | Harga Jual*\n
-Potion:       ${Spotion}
-Diamond:     ${Sdiamond}
-Common:     ${Scommon}
-Uncommon:  ${Suncommon}
-Mythic:     ${Smythic}
-Legendary: ${Slegendary}
-Budak:        ${budak}
-Sampah:     ${Ssampah}\n\n
+Potion💰:       ${Spotion}
+Diamond💰:     ${Sdiamond}
+Common💰:     ${Scommon}
+Uncommon💰:  ${Suncommon}
+Mythic💰:     ${Smythic}
+Legendary💰: ${Slegendary}
+Budak💰:        ${budak}
+Sampah💰:     ${Ssampah}\n\n
 `.trim()
     try {
         if (/shop|toko/i.test(command)) {
