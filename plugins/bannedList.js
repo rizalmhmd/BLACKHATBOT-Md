@@ -2,14 +2,14 @@ let handler = async (m, { conn, isOwner }) => {
     let chats = Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned)
     let users = Object.entries(global.db.data.users).filter(user => user[1].banned)
     let caption = `
-┌〔 Daftar Chat Terbanned 〕
+┌〔 Daftar Chat Terbanned Oleh BOT 〕
 ├ Total : ${chats.length} Chat${chats ? '\n' + chats.map(([jid], i) => `
 ├ ${i + 1}. ${conn.getName(jid) == undefined ? 'Unknown' : conn.getName(jid)}
 ├ ${isOwner ? '@' + jid.split`@`[0] : jid}
 `.trim()).join('\n') : ''}
 └────
 
-┌〔 Daftar Pengguna Terbanned 〕
+┌〔 Daftar Pengguna Terbanned Oleh BOTA 〕
 ├ Total : ${users.length} Pengguna${users ? '\n' + users.map(([jid], i) => `
 ├ ${i + 1}. ${conn.getName(jid) == undefined ? 'Unknown' : conn.getName(jid)}
 ├ ${isOwner ? '@' + jid.split`@`[0] : jid}
