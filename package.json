@@ -1,7 +1,7 @@
 {
-    "name": "BLACKHATBOT-Md",
-    "version": "0.3.5",
-    "description": "Simple Bot WhatsApp with Baileys Multi Device",
+    "name": "ShiraoriBOT-Md",
+    "version": "0.3.2",
+    "description": "Simle Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
@@ -20,23 +20,23 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "BLACKHATBOT-Md",
+        "ShiraoriBOT",
         "wabot-aq"
     ],
-    "homepage": "https://github.com/koleksibot/BLACKHATBOT-Md",
+    "homepage": "https://github.com/ilmanhdyt/ShiraoriBOT-Md",
     "author": {
         "name": "Ilman"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/koleksibot/BLACKHATBOT-Md.git"
+        "url": "git+https://github.com/ilmanhdyt/ShiraoriBOT-Md.git"
     },
     "bugs": {
-        "url": "https://github.com/koleksibot/BLACKHATBOT-Md/issues"
+        "url": "https://github.com/ilmanhdyt/ShiraoriBOT-Md/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys-md": "github:5l1v3r1/baileys#multi-device",
+        "@adiwajshing/baileys-md": "github:ilmanhdyt/baileys#multi-device",
         "awesome-phonenumber": "^2.64.0",
         "axios": "^0.24.0",
         "@bochilteam/scraper": "^0.0.1",
