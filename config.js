@@ -1,6 +1,6 @@
 global.owner = ['6281333154367'] // Put your number here
 global.mods = ['62895369318181'] // Want some help?
-global.prems = ['62895369318181'] // Premium user has unlimited limit
+global.prems = ['62813331543671'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
